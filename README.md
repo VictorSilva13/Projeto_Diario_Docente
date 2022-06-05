@@ -9,12 +9,13 @@ Aplicação web voltada ao cadastro de docentes que terão disponíveis as segui
 6. Em caso de reprovação o motivo será expresso com base nas informações passadas<br><br>
 
 Média mínima para aprovação = 7 <br>
-Número máximo de faltas para aprovação = 5 <br>
+Número máximo de faltas para aprovação = 4 <br>
 
 O primeiro acesso pode ser feito ao utilizar os seguintes comandos: <br>
 -> Para compilar o servidor ``` kotlinc -cp "ktor.jar;." servidor.kt ```<br>
 -> Para executar o servidor ``` kotlin -cp "ktor.jar;." ServidorKt ``` <br>
 -> Página Inicial está no link ```http://localhost:7654/st/index.html```<br>
 
+O servidor "servidor.kt" está contido na pasta src e toda a parte estática (páginas HTML e imagens) na pasta static
 
 
